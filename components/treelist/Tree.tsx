@@ -12,10 +12,14 @@ import {
 } from "react-icons/fi";
 
 interface FileNode {
+  id: number;
+  parentId: number | null;
   type: "file";
   name: string;
 }
 interface FolderNode {
+  id: number;
+  parentId: number | null;
   type: "folder";
   name: string;
   children: Array<FileNode | FolderNode>;
@@ -38,8 +42,15 @@ const Tree: React.FC<TreeProps> = ({ data }) => {
   const [treeData, setTreeData] = useState(data);
   console.log("treeData=>", treeData);
   const moveNode = (draggedNode: TreeNode, targetNode: TreeNode) => {
+    console.log("Move Node Called: ", Date.now());
     console.log("draggedNode=>", draggedNode);
     console.log("targetNode=>", targetNode);
+    if ((targetNode.type = "file")) {
+      console.warn(
+        "Dragged node is the same as the target node. Skipping move."
+      );
+      return;
+    }
     const removeNode = (
       nodes: TreeNode[],
       nodeToRemove: TreeNode
@@ -58,19 +69,23 @@ const Tree: React.FC<TreeProps> = ({ data }) => {
         return [...acc, node];
       }, []);
     };
-
     const addNode = (
       nodes: TreeNode[],
       nodeToAdd: TreeNode,
       targetNode: TreeNode
     ): TreeNode[] => {
       return nodes.map((node) => {
-        if (node === targetNode && node.type === "folder") {
-          return {
-            ...node,
-            children: [...(node.children || []), nodeToAdd],
-          };
+        // Ensure we are targeting the correct folder
+        if (node.name === targetNode.name && node.type === targetNode.type) {
+          if (node.type === "folder") {
+            console.log("Adding node to target:", targetNode.name);
+            return {
+              ...node,
+              children: [...(node.children || []), nodeToAdd],
+            };
+          }
         }
+
         if (node.type === "folder" && node.children) {
           return {
             ...node,
@@ -80,14 +95,16 @@ const Tree: React.FC<TreeProps> = ({ data }) => {
         return node;
       });
     };
-
     setTreeData((prevData) => {
       const dataWithoutDraggedNode = removeNode(prevData, draggedNode);
       console.log("dataWithoutDraggedNode=>", dataWithoutDraggedNode);
-      return addNode(dataWithoutDraggedNode, draggedNode, targetNode);
+
+      // Before returning, let's ensure the correct addition happens
+      const newData = addNode(dataWithoutDraggedNode, draggedNode, targetNode);
+      console.log("New Tree Data:", newData);
+      return newData;
     });
   };
-
   return (
     <div>
       {treeData.map((node) => (
@@ -118,8 +135,13 @@ const Node: React.FC<NodeProps> = ({ node, moveNode }) => {
 
   const [, dropRef] = useDrop({
     accept: "TREE_NODE",
-    drop: (item: { node: TreeNode }) => {
+    drop: (item: { node: TreeNode }, monitor) => {
+      if (monitor.didDrop()) {
+        // If the event was already handled, don't do anything
+        return;
+      }
       moveNode(item.node, node);
+      monitor.getHandlerId(); // This ensures that the drop event doesn't bubble up.
     },
   });
   const contextMenuOption = [
