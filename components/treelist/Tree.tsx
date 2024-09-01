@@ -1,15 +1,9 @@
 "use client";
-import ContextMenu from "@/components/contextMenu/contextmenu";
-import { useContextMenu } from "@/components/contextMenu/useContextMenu";
+import ContextMenu from "@/app/bsc/components/treelist/contextMenu/contextmenu";
+import { useContextMenu } from "@/app/bsc/components/treelist/contextMenu/useContextMenu";
 import { useState } from "react";
 import { useDrag, useDrop } from "react-dnd";
-import {
-  FiFile,
-  FiFileMinus,
-  FiFolder,
-  FiFolderMinus,
-  FiFolderPlus,
-} from "react-icons/fi";
+import { FiFile, FiFileMinus, FiFolder, FiFolderMinus, FiFolderPlus } from "react-icons/fi";
 
 interface FileNode {
   id: number;
@@ -46,15 +40,10 @@ const Tree: React.FC<TreeProps> = ({ data }) => {
     console.log("draggedNode=>", draggedNode);
     console.log("targetNode=>", targetNode);
     if ((targetNode.type = "file")) {
-      console.warn(
-        "Dragged node is the same as the target node. Skipping move."
-      );
+      console.warn("Dragged node is the same as the target node. Skipping move.");
       return;
     }
-    const removeNode = (
-      nodes: TreeNode[],
-      nodeToRemove: TreeNode
-    ): TreeNode[] => {
+    const removeNode = (nodes: TreeNode[], nodeToRemove: TreeNode): TreeNode[] => {
       return nodes.reduce((acc: TreeNode[], node) => {
         if (node === nodeToRemove) return acc;
         if (node.type === "folder" && node.children) {
@@ -69,11 +58,7 @@ const Tree: React.FC<TreeProps> = ({ data }) => {
         return [...acc, node];
       }, []);
     };
-    const addNode = (
-      nodes: TreeNode[],
-      nodeToAdd: TreeNode,
-      targetNode: TreeNode
-    ): TreeNode[] => {
+    const addNode = (nodes: TreeNode[], nodeToAdd: TreeNode, targetNode: TreeNode): TreeNode[] => {
       return nodes.map((node) => {
         // Ensure we are targeting the correct folder
         if (node.name === targetNode.name && node.type === targetNode.type) {
@@ -119,12 +104,7 @@ const Node: React.FC<NodeProps> = ({ node, moveNode }) => {
   const toggleExpand = () => {
     setExpanded(!expanded);
   };
-  const {
-    isContextMenuVisible,
-    contextMenuCoordinates,
-    showContextMenu,
-    hideContextMenu,
-  } = useContextMenu();
+  const { isContextMenuVisible, contextMenuCoordinates, showContextMenu, hideContextMenu } = useContextMenu();
   const [{ isDragging }, dragRef] = useDrag({
     type: "TREE_NODE",
     item: { node },
@@ -169,22 +149,23 @@ const Node: React.FC<NodeProps> = ({ node, moveNode }) => {
           dragRef(el);
           dropRef(el);
         }}
-        className={`ml-5 ${isDragging ? "opacity-50" : ""}`}>
-        <div onClick={toggleExpand} className='flex gap-2 my-2'>
+        className={`ml-5 ${isDragging ? "opacity-50" : ""}`}
+      >
+        <div onClick={toggleExpand} className="my-2 flex gap-2">
           {node.type === "folder" ? (
             expanded ? (
-              <FiFolderPlus className='text-blue-500 text-[25px]' />
+              <FiFolderPlus className="text-[25px] text-blue-500" />
             ) : (
-              <FiFolderMinus className='text-blue-500 text-[25px]' />
+              <FiFolderMinus className="text-[25px] text-blue-500" />
             )
           ) : (
             // "📄"
-            <FiFile className='text-blue-500 text-[25px]' />
+            <FiFile className="text-[25px] text-blue-500" />
           )}
           <div onContextMenu={(e) => showContextMenu(e)}> {node.name}</div>
         </div>
         {node.type === "folder" && node.children && !expanded && (
-          <div className=''>
+          <div className="">
             {node.children.map((child) => (
               <Node key={child.name} node={child} moveNode={moveNode} />
             ))}

@@ -1,0 +1,588 @@
+{
+  "pageProps": {
+    "key": "426097",
+    "articlePage": {
+      "article": {
+        "isFeatured": false,
+        "isAdvertisement": false,
+        "publishedAt": "2024-08-31T12:45:43.176Z",
+        "lastPublishedAt": "2024-08-31T12:45:43.176Z",
+        "createdAt": "2024-08-31T12:01:47.5052215Z",
+        "modifiedAt": "2024-08-31T12:45:43.6895278Z",
+        "content": {
+          "title": "نگاهی متفاوت به سونی؛ برند مورد احترام ژاپنی [تماشا کنید]",
+          "subHeadline": "",
+          "slug": "business/426097-sony-brand-japan-history",
+          "lead": "سونی از کجا شروع کرد و چگونه به جایگاه امروزی‌اش رسید؟ زومیت در ادامه نگاهی متفاوت به برند باسابقه‌ی ژاپنی می‌اندازد.",
+          "headerTemplate": "cover-title-aside",
+          "articleTemplate": "withSidebar",
+          "coverImageLink": {
+            "id": "66d30619565dcae1b744ef0e",
+            "fileName": "sony-logo-young-man",
+            "alt": "لوگو سونی در کنار پسر جوان با کلاه سامورایی",
+            "preview": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAAoACgMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AOc0DwrZw+IZrjeclcAZ4FasukWnmv8AOPvHvUOi6fL/AG1MXvHKFeFwBj9KtS6fF5r/AL9vvH+KteVeyjoLmftZan//2Q==",
+            "width": 1920,
+            "height": 1280,
+            "photographer": "",
+            "organization": "زومیت"
+          },
+          "blocks": [
+            {
+              "data": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "طی‌کردن مسافت‌های طولانی بدون هواپیما ممکن نیست، یادگیری بدون ماشین چاپ غیرممکن می‌شد و اگر لامپ نداشتیم، احتمالاً در تاریکی به کام مرگ می‌رفتیم. این‌ها شاید مهم‌ترین اختراع‌های تاریخ باشند، اما هیچ‌یک در برابر سونی چندان به چشم نمی‌آیند."
+                    }
+                  ],
+                  "annotations": {
+                    "textAlign": "justify",
+                    "textDirection": "rtl"
+                  }
+                }
+              ],
+              "id": "dd0d8e0b-105e-4e29-859c-71bb8b1204b4",
+              "type": "typography",
+              "template": "small"
+            },
+            {
+              "data": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "سونی شرکتی بود که توانست اخترا‌ع‌های دنیای مدرن را وارد زندگی انسان کند و دنیایی را خلق کند که در لبه‌ی فناوری به سر می‌برد. "
+                    }
+                  ],
+                  "annotations": {
+                    "textAlign": "justify",
+                    "textDirection": "rtl"
+                  }
+                }
+              ],
+              "id": "0af784d1-def7-4bd1-a23f-a307c8554359",
+              "type": "typography",
+              "template": "small"
+            },
+            {
+              "data": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "اگر می‌خواهید بیش از پیش با سونی آشنا شوید، ویدیو جدید زومیت را ببینید."
+                    }
+                  ],
+                  "annotations": {
+                    "textAlign": "justify",
+                    "textDirection": "rtl"
+                  }
+                }
+              ],
+              "id": "913e6779-f4f0-4735-b6d0-994228c082af",
+              "type": "typography",
+              "template": "small"
+            },
+            {
+              "data": {
+                "content": "<style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class=\"h_iframe-aparat_embed_frame\"><span style=\"display: block;padding-top: calc(57% + 65px)\"></span><iframe src=\"https://www.aparat.com/video/video/embed/videohash/rbny27g/vt/frame\"  allowFullScreen=\"true\" webkitallowfullscreen=\"true\" mozallowfullscreen=\"true\"></iframe></div>"
+              },
+              "id": "1db861c6-c3e8-4907-8eef-af90a46e4318",
+              "type": "video-iframe",
+              "template": "small"
+            },
+            {
+              "data": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "link",
+                      "url": "https://youtu.be/-svm7Gq2Bb8",
+                      "noFollow": true,
+                      "sponsored": false,
+                      "blankTarget": true,
+                      "children": [
+                        {
+                          "text": "تماشا در یوتیوب"
+                        }
+                      ]
+                    }
+                  ],
+                  "annotations": {
+                    "textAlign": "center",
+                    "textDirection": "rtl"
+                  }
+                }
+              ],
+              "id": "bcbfaf9e-de3a-4127-adcd-331f8e310c08",
+              "type": "typography",
+              "template": "small"
+            },
+            {
+              "data": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "حامی این ویدیو، "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://green.ir/",
+                      "noFollow": true,
+                      "sponsored": true,
+                      "blankTarget": true,
+                      "children": [
+                        {
+                          "text": "شرکت پردیس صنعت سیاره سبز یا گرین"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " است؛ تولیدکننده و عرضه‌کننده‌ی قطعات و تجهیزات الکترونیکی، کامپیوتری و زیست‌محیطی در ایران."
+                    }
+                  ],
+                  "annotations": {
+                    "textAlign": "justify",
+                    "textDirection": "rtl"
+                  }
+                }
+              ],
+              "id": "e23fe272-0f4f-41a7-b252-80f11a1c7b79",
+              "type": "notification-box",
+              "template": "small"
+            }
+          ],
+          "readingTime": 1,
+          "wordCount": 121,
+          "tableOfContentVisibility": false,
+          "isFirstHeaderSubHeadLine": false
+        },
+        "advancedSeoSettings": {
+          "canonical": "",
+          "noIndex": false
+        },
+        "basicSeoSettings": {
+          "schemaType": "NewsArticle",
+          "title": "",
+          "metaDescription": ""
+        },
+        "authors": [
+          {
+            "userId": "354d01bb-57fa-44ba-ab7d-a92f752943da",
+            "fullName": "مبین احمدی",
+            "avatarId": "6405c2833a2fd9b17caa55eb",
+            "articlesCount": 0
+          },
+          {
+            "userId": "e1fc365f-d4b0-435d-af78-6ccaa527adfa",
+            "fullName": "امیرمحمد سلیمانی",
+            "avatarId": "66238746f64d6833d7459c85",
+            "articlesCount": 0
+          }
+        ],
+        "groups": {
+          "mainCategory": {
+            "id": "32335",
+            "title": "کسب و کار",
+            "slug": "business"
+          },
+          "categories": [
+            {
+              "id": "32335",
+              "title": "کسب و کار",
+              "slug": "business"
+            },
+            {
+              "id": "32303",
+              "title": "فناوری",
+              "slug": "tech"
+            }
+          ],
+          "brands": [
+            {
+              "id": "33218",
+              "title": "سونی",
+              "slug": "sony"
+            }
+          ],
+          "collections": [],
+          "events": []
+        },
+        "discussionInfo": {
+          "commentCount": 34,
+          "questionCount": 0,
+          "likeCount": 13,
+          "answerCount": 0,
+          "totalDiscussCount": 34
+        },
+        "id": "426097",
+        "visitCount": 2728,
+        "commentSettings": {
+          "isCommentEnabled": true
+        }
+      }
+    },
+    "seoSchemas": [
+      {
+        "@context": "https://schema.org",
+        "name": "نگاهی متفاوت به سونی؛ برند مورد احترام ژاپنی [تماشا کنید]",
+        "headline": "نگاهی متفاوت به سونی؛ برند مورد احترام ژاپنی [تماشا کنید]",
+        "description": "سونی از کجا شروع کرد و چگونه به جایگاه امروزی‌اش رسید؟ زومیت در ادامه نگاهی متفاوت به برند باسابقه‌ی ژاپنی می‌اندازد.",
+        "datePublished": "2024-08-31T12:45:43.176Z",
+        "dateModified": "2024-08-31T12:45:43.6895278Z",
+        "url": "https://www.zoomit.ir/business/426097-sony-brand-japan-history/",
+        "thumbnailUrl": "https://api2.zoomit.ir/media/sony-logo-young-man-66d30619565dcae1b744ef0e",
+        "commentCount": 34,
+        "wordCount": 121,
+        "mainEntityOfPage": {
+          "@type": "Webpage",
+          "@id": "https://www.zoomit.ir/business/426097-sony-brand-japan-history/",
+          "name": "نگاهی متفاوت به سونی؛ برند مورد احترام ژاپنی [تماشا کنید]"
+        },
+        "publisher": {
+          "@type": "NewsMediaOrganization",
+          "@id": "NewsMediaOrganization",
+          "name": "Zoomit",
+          "foundingDate": "2010-08-31",
+          "logo": "https://www.zoomit.ir/zoomit_logo.png",
+          "url": "https://www.zoomit.ir/",
+          "alternateName": "زومیت"
+        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "مبین احمدی"
+          },
+          {
+            "@type": "Person",
+            "name": "امیرمحمد سلیمانی"
+          }
+        ],
+        "image": [
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://api2.zoomit.ir/media/sony-logo-young-man-66d30619565dcae1b744ef0e",
+            "width": 1920,
+            "height": 1280,
+            "copyrightHolder": {
+              "@type": "Organization",
+              "name": "زومیت"
+            }
+          }
+        ],
+        "@type": "NewsArticle",
+        "articleSection": "business"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://www.zoomit.ir/",
+              "name": "زومیت"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://www.zoomit.ir/business/",
+              "name": "کسب و کار"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://www.zoomit.ir/business/426097-sony-brand-japan-history/",
+              "name": "نگاهی متفاوت به سونی؛ برند مورد احترام ژاپنی [تماشا کنید]"
+            }
+          }
+        ]
+      }
+    ],
+    "canonical": "",
+    "noIndex": false,
+    "headings": [],
+    "modulesWithOutData": [
+      {
+        "template": "articleListSlider",
+        "itemsCount": 8,
+        "id": "6381ee2c634194c22bb64355",
+        "type": "ArticleList",
+        "priority": 1,
+        "zone": {
+          "pageId": "article",
+          "positionId": "boxUnderComment2",
+          "includedUrlPatterns": [],
+          "excludedUrlPatterns": [],
+          "isMobileSupported": true,
+          "isDesktopSupported": true
+        }
+      },
+      {
+        "template": "articleListImageSlider",
+        "itemsCount": 8,
+        "id": "6381ef31634194c22bb6436a",
+        "type": "ArticleList",
+        "priority": 1,
+        "zone": {
+          "pageId": "article",
+          "positionId": "boxUnderComment3White",
+          "includedUrlPatterns": [],
+          "excludedUrlPatterns": [],
+          "isMobileSupported": true,
+          "isDesktopSupported": true
+        }
+      },
+      {
+        "template": "articleListSimpleListSidebar",
+        "itemsCount": 5,
+        "id": "63767ddfda61532c32c3d070",
+        "type": "ArticleList",
+        "priority": 2,
+        "zone": {
+          "pageId": "article",
+          "positionId": "sideBar",
+          "includedUrlPatterns": [],
+          "excludedUrlPatterns": [],
+          "isMobileSupported": true,
+          "isDesktopSupported": true
+        }
+      },
+      {
+        "template": "articleListSimpleListSidebar",
+        "itemsCount": 5,
+        "id": "638207ca634194c22bb6436c",
+        "type": "ArticleList",
+        "priority": 4,
+        "zone": {
+          "pageId": "article",
+          "positionId": "sideBar",
+          "includedUrlPatterns": [],
+          "excludedUrlPatterns": [],
+          "isMobileSupported": true,
+          "isDesktopSupported": true
+        }
+      },
+      {
+        "template": "collectionSlider",
+        "itemsCount": 9,
+        "id": "650eb7e4a07c04a05f1155a1",
+        "type": "ArticleCollection",
+        "priority": 3,
+        "zone": {
+          "pageId": "article",
+          "positionId": "boxUnderCommentWhite",
+          "includedUrlPatterns": [],
+          "excludedUrlPatterns": [],
+          "isMobileSupported": true,
+          "isDesktopSupported": true
+        }
+      },
+      {
+        "template": "productListSlider",
+        "itemsCount": 40,
+        "id": "657587d19752f0b84adbca40",
+        "type": "ProductList",
+        "priority": 4,
+        "zone": {
+          "pageId": "article",
+          "positionId": "boxUnderCommentWhite",
+          "includedUrlPatterns": [],
+          "excludedUrlPatterns": [],
+          "isMobileSupported": true,
+          "isDesktopSupported": true
+        }
+      }
+    ],
+    "advertisingZones": [
+      {
+        "id": "635f8001a9693ee9d21dd9e4",
+        "code": "D1",
+        "title": "هدر بالای مقالات",
+        "displayModules": [
+          {
+            "bannerSpec": {
+              "device": "Desktop",
+              "maxWidth": 1920,
+              "maxHeight": 192,
+              "rowCount": 1,
+              "columnCount": 1
+            },
+            "title": "هدر صفحه مقالات",
+            "type": "DisplayModule",
+            "priority": 1,
+            "position": {
+              "pageId": "article",
+              "positionId": "topBar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "635f80a8a9693ee9d21dd9e6",
+        "code": "D2",
+        "title": "سایدبار بار مقالات داخلی با اولویت بالا - دسکتاپ",
+        "displayModules": [
+          {
+            "bannerSpec": {
+              "device": "Desktop",
+              "maxWidth": 300,
+              "maxHeight": 250,
+              "rowCount": 2,
+              "columnCount": 1
+            },
+            "title": "سایدبار مقالات ۱ - دسکتاپ",
+            "type": "DisplayModule",
+            "priority": 1,
+            "position": {
+              "pageId": "article",
+              "positionId": "sideBar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "635f810da9693ee9d21dd9e7",
+        "code": "D3",
+        "title": "سایدبار بار مقالات داخلی با اولویت پایین - دسکتاپ",
+        "displayModules": [
+          {
+            "bannerSpec": {
+              "device": "Desktop",
+              "maxWidth": 320,
+              "maxHeight": 150,
+              "rowCount": 3,
+              "columnCount": 1
+            },
+            "title": "سایدبار مقالات ۲ - دسکتاپ",
+            "type": "DisplayModule",
+            "priority": 3,
+            "position": {
+              "pageId": "article",
+              "positionId": "sideBar"
+            }
+          },
+          {
+            "bannerSpec": {
+              "device": "Desktop",
+              "maxWidth": 320,
+              "maxHeight": 150,
+              "rowCount": 3,
+              "columnCount": 1
+            },
+            "title": "سایدبار مقالات ۳ - دسکتاپ",
+            "type": "DisplayModule",
+            "priority": 5,
+            "position": {
+              "pageId": "article",
+              "positionId": "sideBar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "635f8182a9693ee9d21dd9e8",
+        "code": "D4",
+        "title": "پایین مقدمه در مقالات",
+        "displayModules": [
+          {
+            "bannerSpec": {
+              "device": "Desktop",
+              "maxWidth": 728,
+              "maxHeight": 90,
+              "rowCount": 1,
+              "columnCount": 1
+            },
+            "title": "پایین مقدمه در مقالات",
+            "type": "DisplayModule",
+            "priority": 1,
+            "position": {
+              "pageId": "article",
+              "positionId": "boxUnderLead"
+            }
+          }
+        ]
+      },
+      {
+        "id": "635f81bca9693ee9d21dd9e9",
+        "code": "D5",
+        "title": "انتهای مقاله و قبل از مطالب مشابه - دسکتاپ",
+        "displayModules": [
+          {
+            "bannerSpec": {
+              "device": "Desktop",
+              "maxWidth": 728,
+              "maxHeight": 90,
+              "rowCount": 1,
+              "columnCount": 1
+            },
+            "title": "بین انتهای مقالات و ماژول مطالب مشابه - دسکتاپ",
+            "type": "DisplayModule",
+            "priority": 1,
+            "position": {
+              "pageId": "article",
+              "positionId": "boxUnderArticleWhite"
+            }
+          }
+        ]
+      },
+      {
+        "id": "635f81f8a9693ee9d21dd9ea",
+        "code": "D7",
+        "title": "پایین کامنت‌ها در مقالات - دسکتاپ",
+        "displayModules": [
+          {
+            "bannerSpec": {
+              "device": "Desktop",
+              "maxWidth": 970,
+              "maxHeight": 250,
+              "rowCount": 1,
+              "columnCount": 2
+            },
+            "title": "پایین دیدگاه‌ها در مقالات - دسکتاپ",
+            "type": "DisplayModule",
+            "priority": 1,
+            "position": {
+              "pageId": "article",
+              "positionId": "boxUnderCommentWhite"
+            }
+          }
+        ]
+      },
+      {
+        "id": "63a18dbc89564fc82dfe186c",
+        "code": "D9",
+        "title": "تمام عرض نیتیو درون مقالات",
+        "displayModules": [
+          {
+            "bannerSpec": {
+              "device": "Desktop",
+              "maxWidth": 1320,
+              "maxHeight": 163,
+              "rowCount": 1,
+              "columnCount": 1
+            },
+            "title": "تبلیغات تمام عرض بالای کامنت‌ها در مقالات - دسکتاپ",
+            "type": "DisplayModule",
+            "priority": 1,
+            "position": {
+              "pageId": "article",
+              "positionId": "fullWidthUnderRelatedArticle"
+            }
+          }
+        ]
+      }
+    ],
+    "advertisingPositionIndexes": [],
+    "_sentryTraceData": "0f80dcbb5b1e4db2b3858d55a6800040-d61173600c960bb8-0",
+    "_sentryBaggage": "sentry-environment=production,sentry-release=c7d9f62404225b2d5be6d820068101769b62b7e4,sentry-public_key=466b9354a60cab59567df8946a3207e3,sentry-trace_id=0f80dcbb5b1e4db2b3858d55a6800040,sentry-sampled=false"
+  },
+  "__N_SSP": true
+}
