@@ -20,11 +20,9 @@ interface TreeProps {
 
 const Tree: React.FC<TreeProps> = ({ data }) => {
   const { treeData, setTreeData, setAllExpanded, allExpanded } = useTreeDataStore();
-  console.log("treeData", treeData);
   useEffect(() => {
     setTreeData(data);
   }, [data]);
-
   return (
     <div>
       <div className="p-2">
@@ -58,7 +56,7 @@ const Node: React.FC<NodeProps> = ({ node, expanded }) => {
         // If the event was already handled, don't do anything
         return;
       }
-      moveNode(item.node, node, setTreeData);
+      moveNode(item.node, node.id, setTreeData);
       monitor.getHandlerId(); // This ensures that the drop event doesn't bubble up.
     },
   });
@@ -107,7 +105,7 @@ const Node: React.FC<NodeProps> = ({ node, expanded }) => {
           )}
           <div
             onContextMenu={(e) => showContextMenu(e)}
-            onClick={() => router.push(`./${node.id}`)}
+            onClick={() => router.push(`/bsc/trees/${node.id}`)}
             className="cursor-pointer"
           >
             {node.name}
