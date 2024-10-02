@@ -22,7 +22,7 @@ const Managers = [
   { id: 2, name: "Manager 2" },
   { id: 3, name: "Manager 3" },
 ];
-const FormSchema = z.object({
+export const FormSchema = z.object({
   name: z.string().min(2, {
     message: "Username must be at least 2 characters.",
   }),
@@ -115,7 +115,11 @@ export default function Treeform({ code }: { code: number }) {
               <FormItem>
                 <FormLabel>Name</FormLabel>
                 <FormControl>
-                  <Input placeholder="name" {...field} />
+                  <Input
+                    className="rounded-lg border border-gray-300 bg-gray-100 p-2 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300"
+                    placeholder="name"
+                    {...field}
+                  />
                 </FormControl>
                 <FormDescription>Please Enter Tree Name</FormDescription>
                 <FormMessage />
@@ -134,7 +138,7 @@ export default function Treeform({ code }: { code: number }) {
                 <Select onValueChange={field.onChange} defaultValue={field.value}>
                   <FormControl>
                     <SelectTrigger>
-                      <SelectValue placeholder="Select a Model" className="text-slate-900" />
+                      <SelectValue placeholder="Select a Model" />
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>

@@ -13,12 +13,14 @@ import { useRouter } from "next/navigation";
 interface NodeProps {
   node: ExpandedTreeNode;
   expanded: boolean;
+  nodeLink: string;
 }
 interface TreeProps {
   data: TreeNode[];
+  nodeLink: string;
 }
 
-const Tree: React.FC<TreeProps> = ({ data }) => {
+const Tree: React.FC<TreeProps> = ({ data, nodeLink }) => {
   const { treeData, setTreeData, setAllExpanded, allExpanded } = useTreeDataStore();
   useEffect(() => {
     setTreeData(data);
@@ -31,13 +33,13 @@ const Tree: React.FC<TreeProps> = ({ data }) => {
         </Button>
       </div>
       {treeData.map((node) => (
-        <Node key={node.id} node={node} expanded={node.expanded}></Node>
+        <Node key={node.id} node={node} expanded={node.expanded} nodeLink={nodeLink}></Node>
       ))}
     </div>
   );
 };
 
-const Node: React.FC<NodeProps> = ({ node, expanded }) => {
+const Node: React.FC<NodeProps> = ({ node, expanded, nodeLink }) => {
   const { setTreeData } = useTreeDataStore();
   const router = useRouter();
   const { isContextMenuVisible, contextMenuCoordinates, showContextMenu, hideContextMenu } = useContextMenu();
@@ -105,7 +107,7 @@ const Node: React.FC<NodeProps> = ({ node, expanded }) => {
           )}
           <div
             onContextMenu={(e) => showContextMenu(e)}
-            onClick={() => router.push(`/bsc/trees/${node.id}`)}
+            onClick={() => router.push(`/${nodeLink}/${node.id}`)}
             className="cursor-pointer"
           >
             {node.name}
@@ -114,7 +116,7 @@ const Node: React.FC<NodeProps> = ({ node, expanded }) => {
         {node.children && !node.expanded && (
           <div className="">
             {node.children.map((child) => (
-              <Node key={child.id} node={child} expanded={expanded} />
+              <Node key={child.id} node={child} expanded={expanded} nodeLink={nodeLink} />
             ))}
           </div>
         )}

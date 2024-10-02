@@ -86,7 +86,7 @@ export function Navigation() {
           </NavigationMenuContent> */}
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
+          <Link href="/bsc/graph" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>Graph</NavigationMenuLink>
           </Link>
           {/* <NavigationMenuTrigger>Components</NavigationMenuTrigger>
@@ -101,7 +101,7 @@ export function Navigation() {
           </NavigationMenuContent> */}
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
+          <Link href="/bsc/dashboard" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>Dashboard</NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
